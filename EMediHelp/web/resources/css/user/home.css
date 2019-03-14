@@ -1,0 +1,117 @@
+.srch-div {
+/*    background: url(../..//images/High-Tech-Medical-1200x500.jpg);
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #cccccc;*/
+	
+    width: 100%;
+    display: block;
+    margin-bottom: 40px;
+}
+#slider-container {
+    width:100%;
+    min-width:1200px;
+}
+.slider-sliding-div {
+    width:100%;
+    min-width:1200px;
+    height:520px;
+}
+.slider-sliding-imgs {
+    width:100%;
+    min-width:1200px;
+    min-height:520px;
+}
+#content1 {
+    width: 1200px;
+    margin: 60px auto;
+    overflow: auto;
+}
+
+.feature-div {
+    width: 290px;
+    float: left;
+    padding: 10px;
+    margin: 10px 5px;
+    border: 5px #4B9AD1 solid;
+    min-height: 235px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.feature-div > div {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    display: block;
+    font-size: 100px;
+}
+
+#feature-div1-img {
+    width: 70px;
+}
+
+#feature-div2-img {
+    width: 70px;
+}
+
+.feature-heading {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.feature-disc {
+    margin-bottom: 10px;
+    display: block;
+}
+
+#content2 {
+    width: 100%;
+    padding: 40px 0px;
+    background: url(../..//images/about-us.jpg);
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #cccccc;
+	
+    overflow: auto;
+}
+#content2-container{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.about-us-div {
+    width: 290px;
+    float: left;
+    padding: 10px;
+    margin: 10px 5px;
+    min-height: 150px;
+}
+
+.about-us-div-img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    font-size: 100px;
+    float: left;
+}
+
+.about-us-div-title {
+    padding: 5px;
+    float: left;
+    font-weight: 700;
+    color: #333;
+}
+
+#about-us-div1-img {
+    font-size: 90px;
+}
+
+.feature-disc {
+    margin-bottom: 10px;
+    display: block;
+}

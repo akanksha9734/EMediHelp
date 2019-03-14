@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 21, 2017, 12:07:11 AM
+    Author     : ku1d33p
+*/
+
+#news-container {
+    width:1200px;
+    padding:10px;
+    margin:10px auto;
+    overflow-y:auto;
+}
+#news-container-left {
+    width:890px;
+    padding:10px;
+    float:left;
+    overflow-y:auto;
+}
+.news-post-container {
+    width:870px;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+}
+.news-post-heading {
+    font-weight: 700;
+    color: #212121;
+    font-size: 30px;
+    line-height: 1;
+}
+.news-post-time-stamp-container {
+    width:870px;
+    margin-top:5px;
+    overflow-y:auto;
+}
+.news-post-time-stamp-container-left {
+    float:left;
+    width:25px;
+}
+.news-post-time-stamp-container-right {
+    float:left;
+}
+.time-stamp-date-label {
+    font-weight: 400;
+    color: #777777;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.news-post-banner-image {
+    width:870px;
+}
+.news-post-discription {
+    display:block;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom:0px;
+    margin-bottom:5px;
+}
+.news-post-read-more-btn {
+    display:block;
+    text-decoration:none;
+    font-weight: 700;
+    color: #2F343B;
+}
+.news-post-container-hr {
+    width:870px;
+    height:1px;
+    margin:20px 0px;
+    background-color:#2F343B;
+}
+#news-container-right {
+    width:270px;
+    padding:10px;
+    float:left;
+    overflow-y:auto;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+}
+#news-recent-post-heading {
+    display:block;
+    margin:0px;
+    font-weight: 700;
+    color: #212121;
+    font-size: 30px;
+    line-height: 1;
+}
+#recent-post-container {
+    display:block;
+    margin-top:20px;
+}
+.recent-post-link {
+    display:block;
+    text-decoration: none;
+    margin:0px 5px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #888888;
+    letter-spacing: 0px;
+}
+.recent-post-hr {
+    border:1px dotted #888888;
+}
+

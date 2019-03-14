@@ -1,0 +1,246 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 20, 2017, 7:53:16 PM
+    Author     : ku1d33p
+*/
+.booking-container
+{
+    width: 1200px;
+    margin: 10px auto;
+    overflow:auto;
+}
+.booking-container-left
+{
+    width: 800px;
+    float: left;
+    overflow:auto;
+}
+.booking-profile
+{
+    width: 796px;
+    margin: 20px 2px;
+    background-color:#f9f9f9;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px #999;
+    padding:20px;
+    overflow: auto;
+}
+
+.booking-profile-left
+{
+    display:inline-block;
+    margin:0px;
+    width:150px;
+    float: left;
+}
+
+.booking-profile-right
+{
+    display:inline-block;
+    width:586px;
+    margin-left: 20px;
+    float:left;
+    overflow: auto;
+}
+
+.booking-block-button
+{
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    padding: 10px 10px 10px 10px;
+    font-size:small;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background: #3498DB;
+    color: #ffffff;
+}
+#address-block{
+    width: 250px;
+    float: left;
+}
+#address-block ul{
+    list-style: none;
+    padding: 0px;
+}
+#working-days-block{
+    width: 250px;
+    float: left;
+}
+#working-days-block ul{
+    list-style: none;
+    text-align: left;
+    padding: 0px;
+}
+#price-block{
+    width: 250px;
+    float: left;
+}
+#price-block span{
+    font-size: 10px;
+}
+.timings-container
+{
+    border:4px #fafafa dashed;
+}
+
+.timings-table
+{
+    color: #333;
+}
+
+.timings-table tr
+{
+    width:40px;
+    height:20px;
+}
+
+.timings-table th
+{
+    width:200px;
+    height:50px;
+    text-decoration:underline;
+}
+
+.timings-table tr td a
+{
+    text-decoration:none;
+}
+
+.timings-table tr td a:hover
+{
+    background-color:#3498DB;
+    color: white;
+    border:5px;
+}
+
+.timings-table-today, .timings-table-tomorrow, .timings-table-day-after-tomorrow
+{
+    padding-top: 5px;
+    border-top:1px #000 dotted;
+}
+.feedback-div{
+    width: 756px;
+    padding: 3px;
+    overflow: auto;
+}
+.feedback-div-left{
+    width:100px;
+    padding: 3px;
+    overflow-y: auto;
+    float: left;
+}
+.feedback-div-right{
+    width:650px;
+    padding: 3px;
+    overflow-y: auto;
+    float: left;
+}
+#article-container-div{
+    background-color:#f9f9f9;
+    padding:20px;
+    width:350px;
+    margin: 20px 0px 20px 10px;
+    border-radius: 7px;
+    color:black;
+    float: left;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin:20px auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 700px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.feedback-form 
+{
+}
+.feedback-form-head
+{
+    text-align:center;
+}
+.feedback-form-content
+{
+    width: 500px;
+    font-size: 15px;  
+    margin:0 auto;
+    color:#333;   
+}
+.feedback-form-content input,
+.feedback-form-content select,
+.feedback-form-content textarea{
+   width: 500px;
+   font-size: 15px;  
+   margin-bottom: 2px;
+   color:black;
+   background: #fff;
+   border: 0;  
+   border-radius: 4px;
+   margin-bottom: 25px;  
+   padding: 5px 10px;  
+   height: 40px;
+   border:1px #989898 solid;
+}    
+.feedback-form-content textarea{
+    height:200px;
+}
+#public-visible{
+    margin: 0px;
+    padding: 0px;
+    width: 13px;
+    height: 13px;
+}
+.feedback-form-required
+{
+    color:#3498DB;
+}
+.feedback-form button[type="submit"] {
+   cursor:pointer;
+   width:25%;
+   border:5px;
+   background:#3498DB;
+   color:white;
+   padding:10px;
+   border-radius: 4px;
+   font-weight: 600;
+}
+.ratting-radio{
+    width: 15px !important;
+    height: 15px !important;
+}

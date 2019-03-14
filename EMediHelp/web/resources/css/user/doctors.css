@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 20, 2017, 11:12:42 AM
+    Author     : ku1d33p
+*/
+.doctor-container
+{
+    width: 1200px;
+    margin: 10px auto;
+    overflow-y:auto;
+}
+
+.doctor-left-container 
+{
+    width:230px;
+    padding:10px;
+    float: left;
+    overflow-y: auto;
+}
+.doctor-filter-div{
+    background-color:#f9f9f9;
+    padding:20px;
+    width:210px;
+    margin: 10px auto;
+    border-radius: 7px;
+    color:black;
+    float: left;
+    box-shadow: 0px 0px 8px #888888;
+}
+.doctor-filter-div h3{
+    margin-top: 0px;
+}
+.doctor-middle-container {
+    width:690px;
+    padding:10px;
+    float: left;
+    overflow-y: auto;
+}
+
+.doctor-card-div
+{
+    background-color:#f9f9f9;
+    padding:20px;
+    width:670px;
+    margin: 10px auto;
+    border-radius: 7px;
+    color:black;
+    float: left;
+    box-shadow: 0px 0px 8px #888888;
+}
+ 
+.doctor-card-img
+{
+    display:inline-block;
+    width: 110px;
+    float:left;
+    margin-right: 10px; 
+}
+
+.doctor-card-name
+{
+    display:inline-block;
+    width:300px;
+    margin-right: 10px;
+    float:left;
+}
+.doctor-card-name h3{
+    margin-top: 0px;
+}
+.doctor-card-details
+{
+    display:inline-block;
+    width:200px;
+    padding:0;
+    float:left;
+    
+}
+
+ul{
+    margin: 0px 0px 5px 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+.facilities-group-list-item
+{
+    text-decoration:none;
+}
+
+.appointments-block-button {
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    padding: 10px 10px;
+    font-size:small;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background: #3498DB;
+    color: #ffffff;
+}
+
+.appointments-block-button:hover, .appointments-block-button:focus {
+    background: #FF4949;
+    cursor:pointer;
+}
+#article-container-div{
+    background-color:#f9f9f9;
+    padding:20px;
+    width:265px;
+    margin: 20px 0px 20px 10px;
+    border-radius: 7px;
+    color:black;
+    float: left;
+    box-shadow: 0px 0px 8px #888888;
+}
